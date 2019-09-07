@@ -1,0 +1,35 @@
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<ImageView
+android:id="@+id/iv_image"
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="7dp"
+    android:scaleType="fitXY"
+    android:src="@drawable/book_icon" />
+
+<TextView
+    android:id="@+id/tv_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_gravity="center"
+    android:layout_marginLeft="10dp"
+    android:layout_toRightOf="@+id/iv_image"
+    android:ellipsize="end"
+    android:maxLines="1"
+    android:paddingRight="10dp"
+    android:text="name"
+    android:textColor="#000000"
+    android:textSize = "15dp" />
+
+    </RelativeLayout>
